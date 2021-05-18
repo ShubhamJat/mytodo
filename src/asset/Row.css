@@ -1,0 +1,39 @@
+.list_item {
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    justify-content: center;
+    align-items: center;
+    border-block-color: blue;
+    margin-bottom: 1px;
+    width :60%;
+}
+
+.Row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+     height: 100%; 
+    width: 100%;
+    border-radius: 12px;
+}
+
+.delBtn{
+      margin: 5px;
+    
+    display: inline-block;
+    outline-width: 0;
+    border-radius: inherit;
+    cursor: pointer;
+    background-color: #17e1fb;
+    font-size: 17px;
+    border: 1px solid #cccccc;
+   
+
+}
+.delBtn:hover {
+    background-color: aqua;
+     border-radius: inherit;
+}

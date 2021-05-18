@@ -1,0 +1,50 @@
+.searchBoxBody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-top: 8%; */
+    border-radius: 12px;
+    border: darkkhaki;
+    padding: inherit;
+    background-color: white;
+    margin-top: 10%;
+     height: 100%; 
+    width: 100%;
+    align-items: center;
+
+}
+
+#inputVal  {
+        /* border: transparent;
+    padding: inherit;
+    margin: 5%; */
+   /* margin: 5%; */
+    border: transparent;
+    display: inline-block;
+    outline-width: 0;
+    border-radius: inherit;
+    cursor: pointer;
+    background-color: #eff6f7;;
+    font-size: 17px;
+   /* border: 1px solid #cccccc; */
+    padding: 8px 16px;
+    height :100%
+}
+
+.addBtn{
+      margin: 5%;
+    
+    display: inline-block;
+    outline-width: 0;
+    border-radius: inherit;
+    cursor: pointer;
+    background-color: #17e1fb;
+    font-size: 17px;
+    border: 1px solid #cccccc;
+    padding: 8px 16px;
+
+}
+.addBtn:hover {
+    background-color: aqua;
+     border-radius: inherit;
+}
