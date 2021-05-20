@@ -12,7 +12,7 @@ import {updater} from '../reducer/listUpdate';
         <div >
         <div className="searchBoxBody"> 
             <input type="text" placeholder="Please Enter Your Task"  id="inputVal" />
-            <button className="addBtn" onClick ={ () => dispatch( add(document.getElementById('inputVal').value )  ) } value ="Click ME">Add</button>
+            <button className="addBtn" onClick ={ () => dispatch( add(document.getElementById('inputVal').value ) ) } >Add</button>
         </div>
         <div>
         
